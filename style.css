@@ -1,0 +1,88 @@
+h1{
+    background-color: black;
+    height: 40px;
+    width: 285px;
+    border-width: 2px;
+    border-style:solid;
+    text-align: center;
+    color:#84D0D9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin:auto;
+  
+    
+  
+  }
+
+  h2{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+  }
+
+  h3{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #primeira{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color:#D9CC6F
+    
+  }
+
+  #terceira{
+
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  body{
+
+   background-image:linear-gradient(to bottom, #296474, #092227, #1F2A2C);
+   background-attachment: fixed;
+   color: #84D0D9
+   
+
+  }
+
+  .learn{
+    font-size: 15px;
+    list-style-type:upper-roman;
+   
+  }
+
+  .im{
+    font-size: 17px;
+    list-style-type:upper-roman;
+   
+    
+  }
+
+  .work{
+    font-size: 18px;
+    list-style-type:upper-roman;
+    
+  }
+
+  .critics{
+    font-size: 20px;
+    list-style-type:upper-roman;
+    
+  }
+
+  img{
+   
+    width: 120px;
+    border-radius: 50% 10%
+    
+    
+  }
+  .links{
+    color:#D9CC6F;
+  }

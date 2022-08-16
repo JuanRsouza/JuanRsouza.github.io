@@ -1,26 +1,16 @@
 h1{
-    background-color: black;
     height: 40px;
     width: 285px;
-    border-width: 2px;
-    border-style:solid;
     text-align: center;
     color:#84D0D9;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     margin:auto;
-  
-    
+    font-size: 25px;
+    padding: 15px;
   
   }
 
-  h2{
-   
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-
-
-  }
 
   h3{
 
@@ -28,10 +18,16 @@ h1{
   }
 
   #primeira{
-
+    border: 5px;
+    border-style: double;
+    padding: 5px;
+    position: absolute;
+    top: 40%;
+    left: 36%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     color:#D9CC6F
+    
     
   }
 
@@ -43,7 +39,7 @@ h1{
   }
 
   body{
-
+    padding: 1%;
    background-image:linear-gradient(to bottom, #296474, #092227, #1F2A2C);
    background-attachment: fixed;
    color: #84D0D9
@@ -76,13 +72,29 @@ h1{
     
   }
 
-  img{
-   
-    width: 120px;
-    border-radius: 50% 10%
-    
-    
-  }
   .links{
     color:#D9CC6F;
   }
+  .links:hover {
+    font-size: 15px;
+  }
+
+  .first-session {
+    height: 280px;
+    position:relative;
+  }
+
+  #minhafoto {
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding: 12px;
+    background-color:wheat;
+  }
+
+.inter:hover {
+    background-color: black;
+    color:red;
+    text-align: center;
+    font-size: 80px;
+}
